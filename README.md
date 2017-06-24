@@ -8,7 +8,8 @@ variety of mental health services to address these issues, many of which are off
 governments, non-profit organizations and/or state and private universities. This analysis will focus on how these partnerships
 effect the efficacy of federal tax dollars in addressing these mental health issues.
 
-## List of plots
+## Gallery
+- [VA Locations](https://leggitta.github.io/va_locations.html)
 
 ## Useful links
 
