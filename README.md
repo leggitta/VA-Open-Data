@@ -16,4 +16,4 @@ effect the efficacy of federal tax dollars in addressing these mental health iss
 
 ## Please contribute!
 Currently this repository uses python, html and mysql to process data and illustrate findings. I welcome your constructive
-feedback on code efficacy, readability, and the clarity of findings. Feel free to raise issues or send me an email vha.open.data@gmail.com.
+feedback on code efficacy, readability, and the clarity of findings. Feel free to raise issues or send me an email (vha.open.data@gmail.com).
