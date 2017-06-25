@@ -8,10 +8,12 @@ variety of mental health services to address these issues, many of which are off
 governments, non-profit organizations and/or state and private universities. This analysis will focus on how these partnerships
 effect the efficacy of federal tax dollars in addressing these mental health issues.
 
-## List of plots
+## Gallery
+- [VA Locations](https://leggitta.github.io/va_locations.html)
 
-## Useful links
+## Data Sources
+- [VA Open Data Portal](https://www.va.gov/data/)
 
 ## Please contribute!
 Currently this repository uses python, html and mysql to process data and illustrate findings. I welcome your constructive
-feedback on code efficacy, readability, and the clarity of findings.
+feedback on code efficacy, readability, and the clarity of findings. Feel free to raise issues or send me an email (vha.open.data@gmail.com).
