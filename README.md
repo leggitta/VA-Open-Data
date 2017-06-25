@@ -8,6 +8,8 @@ variety of mental health services to address these issues, many of which are off
 governments, non-profit organizations and/or state and private universities. This analysis will focus on how these partnerships
 effect the efficacy of federal tax dollars in addressing these mental health issues.
 
+By learning from the successes and failures of local and federal organizations (who deserve thanks for providing publicly available datasets) we can improve the quality mental health care for everyone, veterans and non-veterans alike.
+
 ## Gallery
 [<img src="https://leggitta.github.io/plot_ptsd_by_state.png" height="100" width="200">](https://leggitta.github.io/ptsd_by_state.html)
 
