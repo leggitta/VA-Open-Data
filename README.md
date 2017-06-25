@@ -9,7 +9,7 @@ governments, non-profit organizations and/or state and private universities. Thi
 effect the efficacy of federal tax dollars in addressing these mental health issues.
 
 ## Gallery
-- [VA Locations](https://leggitta.github.io/va_locations.html)
+[<img src="https://leggitta.github.io/plot_ptsd_by_state.png" height="100" width="200">](https://leggitta.github.io/ptsd_by_state.html)
 
 ## Data Sources
 - [VA Open Data Portal](https://www.va.gov/data/)
