@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+
+    <title>Post Traumatic Stress</title>
+
+    {{ js_resources|indent(4)|safe }}
+    {{ css_resources|indent(4)|safe }}
+    {{ plot_script|indent(4)|safe }}
+
+  </head>
+  <body>
+    <!-- A simple form for changing the graph -->
+    <form name="color_button" method='GET'>
+        Color states by:
+        <select name="metric">
+            <option {{ "selected" if metric|indent(4)|safe == "ptsd_rate" }}
+                value="ptsd_rate">PTSD Rate</option>
+            <option {{ "selected" if metric|indent(4)|safe == "total_served" }}
+                value="total_served">Total Vets</option>
+            <option {{ "selected" if metric|indent(4)|safe == "total_ptsd" }}
+                value="total_ptsd">Total PTSD</option>
+        </select>
+        <br>
+        Year:
+        <select name="year">
+            <option {{ "selected" if year|indent(4)|safe == "2014" }}
+                value="2014">2014</option>
+            <option {{ "selected" if year|indent(4)|safe == "2015" }}
+                value="2015">2015</option>
+            <option {{ "selected" if year|indent(4)|safe == "2015+2014" }}
+                value="2015+2014">2015+2014</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    {{ plot_div|indent(4)|safe }}
+  </body>
+</html>
