@@ -1,4 +1,4 @@
-from bokeh.io import output_file
+from bokeh.io import export, output_file
 from bokeh.models import (
     ColumnDataSource, HoverTool, LinearColorMapper, Range1d)
 from bokeh.palettes import Reds6 as palette
@@ -61,4 +61,5 @@ hover.tooltips = [
     ("Total PTSD", "@total_ptsd (@ptsd_rate{int}%)")
 ]
 
+export(us_map)
 show(us_map)
